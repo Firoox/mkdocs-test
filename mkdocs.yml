@@ -1,6 +1,9 @@
 site_name: PITAMy-Dokumentation
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.tabs
 markdown_extensions:
   - admonition
   - pymdownx.highlight
@@ -8,3 +11,4 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.tabbed
   - pymdownx.details
+  - attr_list
